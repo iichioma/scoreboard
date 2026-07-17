@@ -1,8 +1,53 @@
 body {
+    background-image: url("images/background.jpg");
+    background-size: cover;
+    height: 100vh;
     margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .container {
     display: flex;
     justify-content: space-around;
+    background-color: #252b44;
+    width: 80%;
+    border: 3px solid black;
+    border-radius: 10px;
+    padding: 30px;
 }
+
+.scores{
+    background: #080001;
+}
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+h1{
+    font-family: Cursed Timer ULiL;
+    font-weight: 400;
+    font-size: 100px;
+    text-align: center;
+    color: #F94F6D;
+}
+
+h3 {
+    color: #EEEEEE;
+    font-family: Verdana;
+    font-size: 40px;
+    text-align: center;
+}
+
+button{
+    font-family: Cursed Timer ULiL;
+    color: #EEEEEE;
+    background: none;
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 8px 16px;
+}
+
