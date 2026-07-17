@@ -18,7 +18,7 @@ body {
     padding: 30px;
 }
 
-.scores{
+.score-box {
     background: #080001;
 }
 .btns{
@@ -27,7 +27,7 @@ body {
     gap: 12px;
 }
 
-h1{
+.score {
     font-family: Cursed Timer ULiL;
     font-weight: 400;
     font-size: 100px;
@@ -35,7 +35,7 @@ h1{
     color: #F94F6D;
 }
 
-h3 {
+.team h2 {
     color: #EEEEEE;
     font-family: Verdana;
     font-size: 40px;

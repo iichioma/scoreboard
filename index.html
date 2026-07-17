@@ -1,6 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>Basketball Scoreboard</title>
         <link rel="icon" type="image/png" sizes="32x32" href="images/favicon.png">
         <link rel="stylesheet" href="index.css">
@@ -8,28 +10,28 @@
     </head>
     <body>
         <div class="container">
-            <div>
-                <h3>HOME</h3>
-                <div class="scores">
-                     <h1 id="home-el">0</h1>
-                </div>
-               <div class="btns">
-                    <button id="add-one">+1</button>
-                    <button id="add-two">+2</button>
-                    <button id="add-three">+3</button>
-               </div>
-            </div> 
-            <div>
-                <h3>GUEST</h3>
-                <div class="scores">
-                     <h1 id="guest-el">0</h1>
+            <section class="team">
+                <h2>HOME</h2>
+                <div class="score-box">
+                     <p class="score" id="home-el">0</p>
                 </div>
                 <div class="btns">
-                    <button id="add-one">+1</button>
-                    <button id="add-two">+2</button>
-                    <button id="add-three">+3</button>
-               </div>
-            </div>
+                    <button onclick="addPoints('home', 1)">+1</button>
+                    <button onclick="addPoints('home', 2)">+2</button>
+                    <button onclick="addPoints('home', 3)">+3</button>
+                </div>
+            </section>
+            <section class="team">
+                <h2>GUEST</h2>
+                <div class="score-box">
+                     <p class="score" id="guest-el">0</p>
+                </div>
+                <div class="btns">
+                    <button onclick="addPoints('guest', 1)">+1</button>
+                    <button onclick="addPoints('guest', 2)">+2</button>
+                    <button onclick="addPoints('guest', 3)">+3</button>
+                </div>
+            </section>
         </div>
         <script src="index.js"></script>
     </body>
